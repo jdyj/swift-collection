@@ -13,6 +13,9 @@
 		204C48C227CFB712003F7B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204C48C027CFB712003F7B7B /* Main.storyboard */; };
 		204C48C427CFB713003F7B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204C48C327CFB713003F7B7B /* Assets.xcassets */; };
 		204C48C727CFB713003F7B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204C48C527CFB713003F7B7B /* LaunchScreen.storyboard */; };
+		204C48CF27CFB90C003F7B7B /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C48CE27CFB90C003F7B7B /* DatePickerCell.swift */; };
+		204C48D127CFB919003F7B7B /* HourPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C48D027CFB919003F7B7B /* HourPickerCell.swift */; };
+		204C48D327CFB925003F7B7B /* MinutePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204C48D227CFB925003F7B7B /* MinutePickerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		204C48C327CFB713003F7B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204C48C627CFB713003F7B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		204C48C827CFB713003F7B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204C48CE27CFB90C003F7B7B /* DatePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatePickerCell.swift; path = ../DatePickerCell.swift; sourceTree = "<group>"; };
+		204C48D027CFB919003F7B7B /* HourPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HourPickerCell.swift; path = ../HourPickerCell.swift; sourceTree = "<group>"; };
+		204C48D227CFB925003F7B7B /* MinutePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MinutePickerCell.swift; path = ../MinutePickerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		204C48B927CFB712003F7B7B /* ttest */ = {
 			isa = PBXGroup;
 			children = (
+				204C48D227CFB925003F7B7B /* MinutePickerCell.swift */,
+				204C48D027CFB919003F7B7B /* HourPickerCell.swift */,
+				204C48CE27CFB90C003F7B7B /* DatePickerCell.swift */,
 				204C48BA27CFB712003F7B7B /* AppDelegate.swift */,
 				204C48BC27CFB712003F7B7B /* SceneDelegate.swift */,
 				204C48BE27CFB712003F7B7B /* ViewController.swift */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204C48D127CFB919003F7B7B /* HourPickerCell.swift in Sources */,
 				204C48BF27CFB712003F7B7B /* ViewController.swift in Sources */,
 				204C48BB27CFB712003F7B7B /* AppDelegate.swift in Sources */,
+				204C48D327CFB925003F7B7B /* MinutePickerCell.swift in Sources */,
 				204C48BD27CFB712003F7B7B /* SceneDelegate.swift in Sources */,
+				204C48CF27CFB90C003F7B7B /* DatePickerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
